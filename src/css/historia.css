@@ -1,0 +1,66 @@
+.historia {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 1.8rem;
+    justify-content: space-between;
+}
+
+.historia__img{
+    width: 20px;
+    height: 20px;
+    size: 20px;
+}
+.historia_titulo--big{
+    padding-top: 200px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.historia__titulo {
+    font-size: .85rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.historia__card {
+    
+    border-radius: 8px;
+    margin-bottom: 1.3rem;
+    color: #fff;
+    padding: 4rem 1rem 1rem;
+    display: flex;
+
+
+}
+
+
+
+.historia__titulo {
+    margin: 8px 0;
+}
+
+.cards__historia{
+    
+    margin-right: 5vh;
+    padding-right: 5vh;
+    justify-content: stretch;
+ }
+ 
+ .jucilei{
+     width: 55.5vh;
+     float: right;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+ 
+ .claudinei{
+     position: inherit;
+     text-align: center;
+     margin: 10vh;
+    
+ }
+p{
+    font-size:x-large;
+    margin-top: 7.5%;
+    text-align: justify;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos & Contratos</title>
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/personagens.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="icon" href="./icon/icon.png">
+    <link rel="stylesheet" href="./src/css/cabecalho-P.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+   
+    
+
+</head>
+<body>
+  <div>
+    <header class="cabecalho container">
+        <a href="index.html">
+            <img class="cabecalho__logo" src="./src/img/logo-gatos-contratos.png" title="Ir para a pagina incial"
+                alt="Gatos&Contratos">
+        </a>
+
+        
+            <nav class="cabecalho__menu">
+                <li class="cabecalho__item-menu"><a href="./index.html"> Home </a></li>
+                <li class="cabecalho__item-menu"><a href="./personagens.html"> Personagens </a></li>
+
+            </nav>
+       
+    </header>
+</div>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+          <h1 class="titulo">Selecione um personagem</h1>
+          <ul class="lista-de-personagens">
+            <li class="personagem selecionado" id="nico" data-name="Nico" data-description="Um adolescente preguiçoso e perdido com a vida. Tem um grande potencial, mas não sabe que profissão seguir e acaba jogando o dia fora em redes sociais.">
+              <img
+                src="./imagens/nico.png"
+                alt="Personagem Nico"
+              />
+            </li>
+            <li class="personagem" id="junin" data-name="Juninho" data-description="Professor e orientador de Nico, gosta de ajudar os alunos e se tornarem o melhor que eles podem ser.">
+              <img
+                src="./imagens/junin.png"
+                alt="Personagem Juninho"
+              />
+            </li>
+  
+            <li class="personagem" id="sivirino" data-name="Sivirino" data-description="Repetente, acabou caindo no mundo das drogas e agora tenta convencer os outros de que estudar não dá futuro e o bagulho é ir pra balada. Amigo da onça.">
+              <img
+                src="./imagens/sivirino.png"
+                alt="Personagem Sivirino"
+              />
+            </li>
+  
+            <li class="personagem" id="otto" data-name="Otto" data-description="Amigo do Sivirino. Bom garoto, mas ele não tem pensamento crítico...">
+              <img
+                src="./imagens/otto.png"
+                alt="Personagem Otto"
+              />
+            </li>
+  
+            <li class="personagem" id="roberta" data-name="Roberta" data-description="Prefeita de uma cidade grande, conquistou seus votos enganando seus apoiadores e agora não cumpre com suas promessas. Não se importa com seus funcionários e os mantém em trabalho análogo a escravidão.">
+              <img
+                src="./imagens/roberta.png"
+                alt="Personagem Roberta"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="personagem-selecionado">
+          <img
+            class="personagem-grande"
+            src="./imagens/nico.png"
+            alt="Personagem Selecionado"
+          />
+  
+          <div class="informacoes-personagem">
+            <h2 class="nome-personagem" id="nome-personagem">Nico</h2>
+            <p class="descricao-personagem" id="descricao-personagem">
+                Um adolescente preguiçoso e perdido com a vida. Tem um grande potencial, mas não sabe que profissão seguir e acaba jogando o dia fora em redes sociais.
+            </p>
+          </div>
+        </section>
+      </main>
+      
+
+      
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
